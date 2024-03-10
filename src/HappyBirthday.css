@@ -1,0 +1,11 @@
+#hat {
+    position: fixed;
+    top: -400px;
+    right: 0;
+    scale: calc(50%);
+    transition: top 1s ease;
+}
+
+#hat.active {
+    top: -400px;
+}
